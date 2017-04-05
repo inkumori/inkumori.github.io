@@ -1,0 +1,51 @@
+
+@media (max-width: 768px) {
+
+    .header{
+        padding: 0;
+    }
+
+    .header ul.nav {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .pull-right {
+        float: none !important;
+    }
+
+    .nav-pills > li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    .header .nav > li > a {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .teaserxdrums {
+        height: 190px;
+    }
+
+    .header .nav > li > a > img {
+        transition: all 0.2s ease 0s;
+        width: 100%;
+    }
+
+    .header .nav-pills > li {
+        width: 47%;
+        float: none;
+    }
+
+    .header .nav-pills > li + li {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbar-brand {
+        width: 100%;
+    }
+
+}

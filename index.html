@@ -1,45 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!--<link rel="icon" href="favicon.ico">-->
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <title>xDrums The Game</title>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/jumbotron-narrow.css" rel="stylesheet">
+  <link href="css/desktop.css" rel="stylesheet">
+  <link href="css/adaptive.css" rel="stylesheet">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]>
+  <script src="js/ie8-responsive-file-warning.js"></script>
+  <![endif]-->
+  <script src="js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>-->
+  <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+  <![endif]-->
+</head>
+
+<body>
+
     <div class="container">
-	<div class="row">
-        <div class="col-xs-6 col-md-6"><H1>X-DRUMS</H1></div>
-		<div class="col-xs-3 col-md-3"><img src="\apple.png" alt="что-то пошло не так" class="img-responsive" ></div>
-		<div class="col-xs-3 col-md-3"><img src="\google.jpg" alt="что-то пошло не так" class="img-responsive" ></div>
-	</div>
-	<div class="row">
-	
-		 <!--<div class="jumbotron">-->
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ykRcEztUOz8"></iframe>
-			</div>
-		 <!--</div>-->
-    </div>
-	<div class="row">
-		<div class="col-xs-12 col-md-12">social site</div>
-	</div>
-	</div>
+      <div class="header clearfix">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.gif" alt="">
+          </a>
+        </div>
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+              <a href="#">
+                <img src="img/icons/itunes-app-store-logo.png" alt="что-то пошло не так" class="img-responsive">
+              </a>
+            </li>
+            <li role="presentation">
+              <a href="#">
+                <img src="img/icons/Google-Play-Transparent-border.png" alt="что-то пошло не так" class="img-responsive">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <!--Fucking Video-->
+      <div class="jumbotron">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://www.youtube.com/embed/ykRcEztUOz8"></iframe>
+        </div>
+      </div>
+
+      <!--Description-->
+      <div class="description">
+        <p>What is&nbsp;the best place to&nbsp;record album? Los-Angeles Music Studio! Help Japanese Drummer to&nbsp;get to&nbsp;Los-Angeles. Pic notes on&nbsp;your way. Keep an&nbsp;eye on&nbsp;girls! They are cute, but time is&nbsp;not yet! Run as&nbsp;fast as&nbsp;you can! Banzai!</p>
+      </div>
+
+      <!--Banner-->
+      <div class="embed-responsive teaserxdrums">
+        <iframe class="embed-responsive-item" src="banner/teaserxdrums.html"></iframe>
+      </div>
+
+      <footer class="footer">
+        <ul class="nav nav-pills nav-justified">
+
+         <!-- <li class="facebook icon">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+          </li>-->
+
+          <li class="twitter icon">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+          </li>
+
+          <li class="tumblr icon">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+            </span>
+          </li>
+
+          <!--<li class="vk icon">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+            </span>
+          </li>-->
+
+          <!--<li class="odnoklassniki icon">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-odnoklassniki fa-stack-1x fa-inverse"></i>
+            </span>
+          </li>-->
+
+          <li class="youtube icon">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-youtube  fa-stack-1x fa-inverse"></i>
+            </span>
+          </li>
+
+          <li class="instagram icon">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+            </span>
+          </li>
+
+        </ul>
+      </footer>
+
+    </div> <!-- /container -->
+
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
   </body>
 </html>
 
