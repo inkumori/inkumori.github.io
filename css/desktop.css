@@ -28,6 +28,10 @@
     line-height: 31px;
 }
 
+.navbar-brand > span {
+    letter-spacing: -0.15em;
+}
+
 .pre_logo {
     /*float: left;*/
     display: inline-block;
@@ -38,14 +42,6 @@
 .pre_logo img {
     width: 100%;
 }
-
-/*.navbar-brand::before{*/
-    /*display: inline-block;*/
-    /*content: '';*/
-    /*width: 20px;*/
-    /*height: 20px;*/
-    /*background-image: url("../img/bg_DR_512x512.png");*/
-/*}*/
 
 .nav > li > a {
     padding: 0;

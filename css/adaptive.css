@@ -72,10 +72,22 @@
 
 }
 
+
+
+/*Размеры логотипа*/
+
+@media (max-width: 900px) {
+
+    .navbar-brand {
+        font-size: 90px;
+    }
+
+}
+
 @media (max-width: 600px) {
 
     .navbar-brand {
-        font-size: 100px;
+        font-size: 90px;
     }
 
 }
@@ -84,21 +96,12 @@
 @media (max-width: 500px) {
 
     .navbar-brand {
-        font-size: 95px;
+        font-size: 85px;
     }
 
 }
-
 
 @media (max-width: 450px) {
-
-    .navbar-brand {
-        font-size: 90px;
-    }
-
-}
-
-@media (max-width: 420px) {
 
     .navbar-brand {
         font-size: 80px;
@@ -106,10 +109,26 @@
 
 }
 
+@media (max-width: 430px) {
+
+    .navbar-brand {
+        font-size: 75px;
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    .navbar-brand {
+        font-size: 60px;
+    }
+
+}
+
 @media (max-width: 400px) {
 
     .navbar-brand {
-        font-size: 65px;
+        font-size: 55px;
     }
 
 }
