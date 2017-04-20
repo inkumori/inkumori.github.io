@@ -54,7 +54,8 @@
     transition: .2s;
 }
 
-.nav > li > a:hover > img{
+.nav > li > a:hover > img,
+.nav > li > a:active > img{
     opacity: .3;
 }
 

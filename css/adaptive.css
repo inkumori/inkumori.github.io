@@ -42,6 +42,14 @@
         margin-left: 0;
     }
 
+    .nav > li > a:hover > img{
+        opacity: 1;
+    }
+
+    .nav > li > a:active > img{
+        opacity: .3;
+    }
+
     .header .nav > li > a {
         margin-left: 0;
         padding: 0;
