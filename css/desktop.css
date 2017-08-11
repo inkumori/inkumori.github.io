@@ -68,7 +68,7 @@ transition: all 0.2s ease 0s;
 }
 
 .nav > li > a > img {
-    max-height: 52px;
+    max-height: 45px;
     transition: .2s;
 }
 
